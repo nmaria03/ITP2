@@ -107,7 +107,7 @@ char* next_word_until(char **line, char delim){
 		word[len+1] = '\0';
 	}
 	char* result;
-  result = (char*) calloc(strlen(word)+1, sizeof(char));
+  	result = (char*) calloc(strlen(word)+1, sizeof(char));
 	strcpy(result, word);
 	return result;
 }
